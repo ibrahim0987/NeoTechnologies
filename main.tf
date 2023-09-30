@@ -1,14 +1,14 @@
 provider "aws" {
-  region = "us-east-1"  # Change to your desired AWS region
+  region = "eu-north-1"  # Change to your desired AWS region
 }
 
 resource "aws_instance" "ghost_instance" {
-  ami           = "ami-03a6eaae9938c858c"  # Specify the desired AMI ID
-  instance_type = "t2.micro"  # Adjust instance type as needed
-  key_name      = "ghost-key-pair"  # Specify your key pair name
+  ami           = "ami-0703b5d7f7da98d1e"  # Specify the desired AMI ID
+  instance_type = "t3.micro"  # Adjust instance type as needed
+  key_name      = "My-Ghost-Key-Pair"  # Specify your key pair name
 
   tags = {
-    Name = "GhostInstance"
+    Name = "MyGhostInstance"
   }
 }
 
