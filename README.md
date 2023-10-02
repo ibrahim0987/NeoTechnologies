@@ -1,4 +1,4 @@
-In this Github Repo you will find files the contains pipeline stages done by terraform, jenkinsfile
+In this Github Repo you will find files the contains pipeline stages on jenkins file done by pipeline stages terraform.
 
 
 Steps Done:
